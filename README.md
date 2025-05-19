@@ -1,19 +1,37 @@
-# 🎈 Blank app template
+# 🧪 Iron Concentrate Prediction App
 
-A simple Streamlit app template for you to modify!
+This Streamlit web application uses a machine learning model to predict the **percentage of iron concentrate** based on operating parameters in a mineral processing plant. It also provides **feature importance**, **actual vs. predicted visualization**, **time-series insights**, and **optimal operating suggestions**.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+## 🚀 Live Demo
 
-### How to run it on your own machine
+[Click here to view the app](http://172.191.151.54:8501)  
 
-1. Install the requirements
+---
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+## 📦 Features
 
-2. Run the app
+- ✅ Upload your mineral processing dataset
+- ✅ Predict iron concentrate output using a trained Random Forest Regressor
+- ✅ View feature importance rankings
+- ✅ Visualize actual vs. predicted output
+- ✅ See iron concentrate trends over time
+- ✅ Get recommended settings for optimal iron output
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+---
+
+## 🧠 Model Details
+
+- **Algorithm**: Random Forest Regressor  
+- **Target**: `% Iron Concentrate`  
+- **Libraries**: Scikit-learn, Plotly, Matplotlib, Seaborn
+
+---
+
+## 📁 Folder Structure
+
+```text
+.
+├── iron_concentrate_app.py       # Main Streamlit app
+├── requirements.txt              # Required Python packages
+├── README.md                     # You're here!
+├── data/                         # (Optional) Place sample datasets here
